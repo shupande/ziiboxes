@@ -1,19 +1,13 @@
 import Link from "next/link";
-import Image from "next/image";
-
-export const metadata = {
-  title: "Blog | ZiiBoxes - Packaging Tips & Insights",
-  description: "Expert tips on e-commerce packaging, branding, and shipping. Learn how to create unforgettable unboxing experiences.",
-};
 
 const blogPosts = [
   {
     slug: "amazon-fba-packaging-requirements-2026",
     title: "Amazon FBA Packaging Requirements 2026: Complete Guide",
-    excerpt: "Everything you need to know about Amazon FBA packaging requirements in 2026. Avoid rejection and get your products to customers faster.",
+    excerpt: "Everything you need to know about Amazon FBA packaging requirements. Avoid rejection and ship faster with our comprehensive guide.",
     category: "Amazon FBA",
     readTime: "8 min read",
-    date: "March 5, 2026",
+    date: "March 6, 2026",
   },
   {
     slug: "how-much-does-custom-packaging-cost",
@@ -21,7 +15,7 @@ const blogPosts = [
     excerpt: "A complete breakdown of custom packaging costs. Learn what factors affect pricing and how to get the best value for your business.",
     category: "Pricing",
     readTime: "6 min read",
-    date: "March 4, 2026",
+    date: "March 5, 2026",
   },
   {
     slug: "best-packaging-for-small-business",
@@ -29,7 +23,7 @@ const blogPosts = [
     excerpt: "Discover the best packaging options for small businesses. Compare costs, MOQs, and find the perfect solution for your budget.",
     category: "Small Business",
     readTime: "7 min read",
-    date: "March 3, 2026",
+    date: "March 4, 2026",
   },
   {
     slug: "eco-friendly-packaging-guide",
@@ -37,7 +31,7 @@ const blogPosts = [
     excerpt: "Learn everything about sustainable packaging options. From materials to certifications, make your brand more environmentally friendly.",
     category: "Sustainability",
     readTime: "9 min read",
-    date: "March 2, 2026",
+    date: "March 3, 2026",
   },
   {
     slug: "unboxing-experience-design-tips",
@@ -45,7 +39,7 @@ const blogPosts = [
     excerpt: "Turn customers into brand advocates with a memorable unboxing experience. Design tips and real examples from successful brands.",
     category: "Branding",
     readTime: "6 min read",
-    date: "March 1, 2026",
+    date: "March 2, 2026",
   },
   {
     slug: "candle-packaging-ultimate-guide",
@@ -53,13 +47,13 @@ const blogPosts = [
     excerpt: "Everything you need to know about candle packaging. From safety to design, create packaging that protects and sells.",
     category: "Industry Guide",
     readTime: "8 min read",
-    date: "February 28, 2026",
+    date: "March 1, 2026",
   },
 ];
 
 export default function BlogPage() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-gray-50">
       {/* Hero */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -83,14 +77,8 @@ export default function BlogPage() {
                 className="group"
               >
                 <article className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
-                  <div className="aspect-w-16 aspect-h-9 bg-gray-200">
-                    <Image
-                      src={`/images/blog/guides/guide-01.jpg`}
-                      alt={post.title}
-                      width={400}
-                      height={225}
-                      className="object-cover group-hover:scale-105 transition"
-                    />
+                  <div className="aspect-w-16 aspect-h-9 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center">
+                    <span className="text-6xl">📝</span>
                   </div>
                   <div className="p-6">
                     <div className="flex items-center gap-3 mb-3">
@@ -124,7 +112,7 @@ export default function BlogPage() {
       </section>
 
       {/* Newsletter */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Subscribe to Our Newsletter
