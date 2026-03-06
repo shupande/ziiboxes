@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Unboxing Experience Design Tips 2026",
-  description: "Learn how to create memorable unboxing experiences that turn customers into brand advocates. Design tips and real examples.",
+  description: "Learn how to create memorable unboxing experiences that turn customers into brand advocates.",
 };
 
 export default function UnboxingExperienceGuide() {
@@ -84,11 +84,6 @@ export default function UnboxingExperienceGuide() {
               <li>☑ Care instructions</li>
               <li>☑ Social media call-to-action</li>
             </ul>
-
-            <h2>Real Examples</h2>
-            <p><strong>Apple:</strong> Minimalist, precise, premium feel</p>
-            <p><strong>Glossier:</strong> Pink tissue, stickers, personal notes</p>
-            <p><strong>Subscription Boxes:</strong> Layered reveals, samples, cards</p>
 
             <h2>Cost-Effective Tips</h2>
             <ol>
